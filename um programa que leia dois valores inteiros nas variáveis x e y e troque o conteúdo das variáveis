@@ -1,0 +1,13 @@
+ #include <stdio.h>
+int main () {
+int x, y, aux;
+        printf("escreva o número de x\n");
+        scanf("%d", &x);
+        printf("escreva o número de y\n");
+        scanf("%d", &y);
+aux=x;
+x=y;
+y=aux;
+        printf("realizada a troca, então: x=%d y=%d\n" ,x , y);
+return 0;
+}
